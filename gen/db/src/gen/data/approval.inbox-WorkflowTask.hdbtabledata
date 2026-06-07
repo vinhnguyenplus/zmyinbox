@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "target_table": "APPROVAL_INBOX_WORKFLOWTASK",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "approval.inbox-WorkflowTask.csv",
+        "has_header": true,
+        "type_config": {
+          "delimiter": ";"
+        }
+      },
+      "import_settings": {
+        "import_columns": [
+          "ID",
+          "TITLE",
+          "EMPLOYEE_ID",
+          "LEAVEREQUEST_ID",
+          "STATUS",
+          "COMPLETEDAT",
+          "COMPLETEDBY",
+          "DECISIONCOMMENT",
+          "CREATEDAT",
+          "CREATEDBY",
+          "MODIFIEDAT",
+          "MODIFIEDBY"
+        ],
+        "include_filter": []
+      },
+      "column_mappings": {
+        "ID": "ID",
+        "TITLE": "title",
+        "EMPLOYEE_ID": "employee_ID",
+        "LEAVEREQUEST_ID": "leaveRequest_ID",
+        "STATUS": "status",
+        "COMPLETEDAT": "completedAt",
+        "COMPLETEDBY": "completedBy",
+        "DECISIONCOMMENT": "decisionComment",
+        "CREATEDAT": "createdAt",
+        "CREATEDBY": "createdBy",
+        "MODIFIEDAT": "modifiedAt",
+        "MODIFIEDBY": "modifiedBy"
+      }
+    }
+  ]
+}

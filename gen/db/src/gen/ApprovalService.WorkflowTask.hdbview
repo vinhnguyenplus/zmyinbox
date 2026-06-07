@@ -1,0 +1,22 @@
+VIEW ApprovalService_WorkflowTask AS SELECT
+  WorkflowTask_0.ID,
+  WorkflowTask_0.createdAt,
+  WorkflowTask_0.createdBy,
+  WorkflowTask_0.modifiedAt,
+  WorkflowTask_0.modifiedBy,
+  WorkflowTask_0.title,
+  WorkflowTask_0.employee_ID,
+  WorkflowTask_0.leaveRequest_ID,
+  WorkflowTask_0.status,
+  WorkflowTask_0.completedAt,
+  WorkflowTask_0.completedBy,
+  WorkflowTask_0.decisionComment,
+  employee_1.fullName AS employeeName,
+  employee_1.department AS department,
+  employee_1.email AS employeeEmail,
+  leaveRequest_2.type AS leaveType,
+  leaveRequest_2.startDate AS leaveStartDate,
+  leaveRequest_2.endDate AS leaveEndDate,
+  leaveRequest_2.days AS days,
+  leaveRequest_2.reason AS reason
+FROM ((approval_inbox_WorkflowTask AS WorkflowTask_0 LEFT JOIN approval_inbox_Employee AS employee_1 ON WorkflowTask_0.employee_ID = employee_1.ID) LEFT JOIN approval_inbox_LeaveRequest AS leaveRequest_2 ON WorkflowTask_0.leaveRequest_ID = leaveRequest_2.ID)

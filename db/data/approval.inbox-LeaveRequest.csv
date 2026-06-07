@@ -1,0 +1,7 @@
+ID;employee_ID;type;startDate;endDate;days;reason;status;createdAt;createdBy;modifiedAt;modifiedBy
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa;11111111-1111-1111-1111-111111111111;Annual Leave;2026-06-17;2026-06-19;3;Family trip;PENDING;2026-06-01T09:10:00Z;an.nguyen@example.com;2026-06-01T09:10:00Z;an.nguyen@example.com
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb;22222222-2222-2222-2222-222222222222;Sick Leave;2026-06-08;2026-06-09;2;Medical appointment;APPROVED;2026-05-30T03:30:00Z;binh.le@example.com;2026-05-30T05:00:00Z;demo.approver
+cccccccc-cccc-cccc-cccc-cccccccccccc;33333333-3333-3333-3333-333333333333;Annual Leave;2026-07-01;2026-07-05;5;Summer break;PENDING;2026-06-03T11:20:00Z;chi.pham@example.com;2026-06-03T11:20:00Z;chi.pham@example.com
+dddddddd-dddd-dddd-dddd-dddddddddddd;44444444-4444-4444-4444-444444444444;Annual Leave;2026-06-15;2026-06-17;3;Personal travel;APPROVED;2026-06-03T08:00:00Z;levanc@example.com;2026-06-03T10:00:00Z;demo.approver
+eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee;55555555-5555-5555-5555-555555555555;Personal Leave;2026-06-20;2026-06-20;1;Family matter;APPROVED;2026-06-02T08:00:00Z;phamthid@example.com;2026-06-02T10:00:00Z;demo.approver
+ffffffff-ffff-ffff-ffff-ffffffffffff;66666666-6666-6666-6666-666666666666;Annual Leave;2026-07-01;2026-07-05;5;Peak period conflict;REJECTED;2026-06-01T08:00:00Z;hoangvane@example.com;2026-06-01T10:00:00Z;demo.approver

@@ -1,0 +1,7 @@
+ID;employeeNumber;fullName;position;department;email;managerName
+11111111-1111-1111-1111-111111111111;E0001;An Nguyen;Senior Consultant;Advisory;an.nguyen@example.com;Minh Tran
+22222222-2222-2222-2222-222222222222;E0002;Binh Le;Product Manager;Digital Products;binh.le@example.com;Minh Tran
+33333333-3333-3333-3333-333333333333;E0003;Chi Pham;UX Designer;Experience;chi.pham@example.com;Hoa Vo
+44444444-4444-4444-4444-444444444444;E0004;Le Van C;Software Engineer;Information Technology;levanc@example.com;Manager01
+55555555-5555-5555-5555-555555555555;E0005;Pham Thi D;Business Analyst;Operations;phamthid@example.com;Manager02
+66666666-6666-6666-6666-666666666666;E0006;Hoang Van E;QA Engineer;Quality;hoangvane@example.com;Manager03

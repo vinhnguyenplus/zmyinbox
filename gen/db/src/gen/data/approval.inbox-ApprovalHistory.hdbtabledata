@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "target_table": "APPROVAL_INBOX_APPROVALHISTORY",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "approval.inbox-ApprovalHistory.csv",
+        "has_header": true,
+        "type_config": {
+          "delimiter": ";"
+        }
+      },
+      "import_settings": {
+        "import_columns": [
+          "ID",
+          "WORKFLOWTASK_ID",
+          "LEAVEREQUEST_ID",
+          "STEP",
+          "APPROVERNAME",
+          "DECISION",
+          "COMMENT",
+          "CREATEDAT"
+        ],
+        "include_filter": []
+      },
+      "column_mappings": {
+        "ID": "ID",
+        "WORKFLOWTASK_ID": "workflowTask_ID",
+        "LEAVEREQUEST_ID": "leaveRequest_ID",
+        "STEP": "step",
+        "APPROVERNAME": "approverName",
+        "DECISION": "decision",
+        "COMMENT": "comment",
+        "CREATEDAT": "createdAt"
+      }
+    }
+  ]
+}

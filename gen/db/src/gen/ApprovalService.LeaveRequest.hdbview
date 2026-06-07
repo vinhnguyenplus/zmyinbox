@@ -1,0 +1,14 @@
+VIEW ApprovalService_LeaveRequest AS SELECT
+  LeaveRequest_0.ID,
+  LeaveRequest_0.createdAt,
+  LeaveRequest_0.createdBy,
+  LeaveRequest_0.modifiedAt,
+  LeaveRequest_0.modifiedBy,
+  LeaveRequest_0.employee_ID,
+  LeaveRequest_0.type,
+  LeaveRequest_0.startDate,
+  LeaveRequest_0.endDate,
+  LeaveRequest_0.days,
+  LeaveRequest_0.reason,
+  LeaveRequest_0.status
+FROM approval_inbox_LeaveRequest AS LeaveRequest_0

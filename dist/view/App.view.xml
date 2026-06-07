@@ -1,0 +1,278 @@
+<mvc:View
+  controllerName="approval.inbox.controller.App"
+  xmlns="sap.m"
+  xmlns:core="sap.ui.core"
+  xmlns:f="sap.f"
+  xmlns:form="sap.ui.layout.form"
+  xmlns:mvc="sap.ui.core.mvc"
+  displayBlock="true">
+  <App height="100%">
+    <Page showHeader="false" enableScrolling="false" busy="{view>/busy}">
+      <content>
+        <VBox height="100%" class="inboxRoot">
+          <f:ShellBar
+            class="inboxShellBar"
+            title="{i18n>appTitle}"
+            showMenuButton="true"
+            showSearch="true"
+            showNotifications="true"
+            notificationsNumber="5">
+            <f:profile>
+              <Avatar displaySize="XS" initials="MN" backgroundColor="Accent6" />
+            </f:profile>
+          </f:ShellBar>
+
+          <Toolbar class="filterBar" height="6.375rem">
+            <SearchField
+              id="taskSearch"
+              width="24rem"
+              placeholder="Search task"
+              search=".onSearch" />
+            <Label text="Status:" />
+            <Select
+              id="statusSelect"
+              width="12rem"
+              selectedKey="{view>/filters/status}"
+              change=".onStatusSelectChange">
+              <items>
+                <core:Item key="ALL" text="{i18n>all}" />
+                <core:Item key="READY" text="{i18n>ready}" />
+                <core:Item key="COMPLETED" text="{i18n>completed}" />
+                <core:Item key="REJECTED" text="Rejected" />
+              </items>
+            </Select>
+            <Label text="{i18n>filterCreatedDate}:" />
+            <DateRangeSelection
+              id="createdDateRange"
+              width="20rem"
+              displayFormat="dd/MM/yyyy"
+              change=".onCreatedDateChange" />
+            <Button text="Go" type="Emphasized" width="4.5rem" press=".onApplyFilters" />
+            <Button text="Adapt Filters" type="Transparent" />
+            <Button text="Clear" type="Transparent" press=".onClearFilters" />
+          </Toolbar>
+
+          <f:FlexibleColumnLayout
+            id="fcl"
+            class="inboxFcl"
+            layout="TwoColumnsMidExpanded"
+            backgroundDesign="Translucent">
+            <f:beginColumnPages>
+              <f:DynamicPage
+                id="taskPage"
+                showFooter="false"
+                class="taskColumnPage"
+                fitContent="true">
+                <f:title>
+                  <f:DynamicPageTitle>
+                    <f:heading>
+                      <Title text="{= 'Tasks (' + ${view>/counts/all} + ')' }" level="H2" />
+                    </f:heading>
+                    <f:actions>
+                      <Button type="Transparent" icon="sap-icon://sort" tooltip="Sort" />
+                    </f:actions>
+                  </f:DynamicPageTitle>
+                </f:title>
+                <f:content>
+                  <List
+                    id="taskList"
+                    mode="SingleSelectMaster"
+                    includeItemInSelection="true"
+                    growing="true"
+                    growingThreshold="8"
+                    selectionChange=".onTaskSelect"
+                    updateFinished=".onTaskListUpdateFinished"
+                    items="{
+                      path: '/WorkflowTask',
+                      sorter: {
+                        path: 'createdAt',
+                        descending: true
+                      }
+                    }">
+                    <items>
+                      <ObjectListItem
+                        title="{path: 'leaveType', formatter: '.formatRequestTitle'}"
+                        intro="{= 'Employee: ' + ${employeeName} }"
+                        number="{status}"
+                        numberState="{path: 'status', formatter: '.formatStatusState'}"
+                        type="Active"
+                        press=".onTaskPress">
+                        <attributes>
+                          <ObjectAttribute
+                            text="{
+                              parts: ['leaveStartDate', 'leaveEndDate'],
+                              formatter: '.formatDateRange'
+                            }" />
+                          <ObjectAttribute
+                            text="{path: 'createdAt', formatter: '.formatCreatedDateLabel'}" />
+                        </attributes>
+                      </ObjectListItem>
+                    </items>
+                  </List>
+                  <Toolbar class="showMoreBar" visible="{= ${view>/counts/all} > 4 }">
+                    <ToolbarSpacer />
+                    <Button text="Show More" type="Transparent" icon="sap-icon://slim-arrow-down" iconFirst="false" />
+                    <ToolbarSpacer />
+                  </Toolbar>
+                </f:content>
+              </f:DynamicPage>
+            </f:beginColumnPages>
+
+            <f:midColumnPages>
+              <f:DynamicPage
+                id="detailPage"
+                class="detailColumnPage"
+                showFooter="{= !!${view>/selectedTask} }"
+                fitContent="false">
+                <f:title>
+                  <f:DynamicPageTitle>
+                    <f:heading>
+                      <Title text="{path: 'view>/leaveRequest/type', formatter: '.formatRequestTitle'}" level="H1" />
+                    </f:heading>
+                    <f:expandedContent>
+                      <Text
+                        text="{
+                          parts: ['view>/employee/fullName', 'view>/selectedTask/createdAt'],
+                          formatter: '.formatSubmittedBy'
+                        }" />
+                    </f:expandedContent>
+                    <f:snappedContent>
+                      <ObjectStatus
+                        text="{view>/selectedTask/status}"
+                        state="{path: 'view>/selectedTask/status', formatter: '.formatStatusState'}" />
+                    </f:snappedContent>
+                    <f:actions>
+                      <VBox class="detailStatusBox">
+                        <Text text="Status" />
+                        <ObjectStatus
+                          text="{view>/selectedTask/status}"
+                          state="{path: 'view>/selectedTask/status', formatter: '.formatStatusState'}"
+                          class="detailStatus" />
+                        <Text
+                          text="{path: 'view>/selectedTask/createdAt', formatter: '.formatCreatedDateLabel'}" />
+                      </VBox>
+                    </f:actions>
+                  </f:DynamicPageTitle>
+                </f:title>
+
+                <f:content>
+                  <VBox class="detailContent" visible="{= !!${view>/selectedTask} }">
+                    <Title text="Employee Information" level="H2" class="sectionTitle" />
+                    <Panel class="detailSection">
+                      <content>
+                        <form:SimpleForm
+                          editable="false"
+                          layout="ResponsiveGridLayout"
+                          labelSpanXL="3"
+                          labelSpanL="3"
+                          labelSpanM="4"
+                          columnsXL="2"
+                          columnsL="2"
+                          columnsM="2">
+                          <form:content>
+                            <core:Title text="" />
+                            <Label text="Name" />
+                            <Text text="{view>/employee/fullName}" />
+                            <Label text="Department" />
+                            <Text text="{view>/employee/department}" />
+                            <Label text="Position" />
+                            <Text text="{view>/employee/position}" />
+                            <core:Title text="" />
+                            <Label text="Manager" />
+                            <Text text="{view>/employee/managerName}" />
+                            <Label text="Email" />
+                            <Text text="{view>/employee/email}" />
+                          </form:content>
+                        </form:SimpleForm>
+                      </content>
+                    </Panel>
+
+                    <Title text="Leave Information" level="H2" class="sectionTitle" />
+                    <Panel class="detailSection">
+                      <content>
+                        <form:SimpleForm
+                          editable="false"
+                          layout="ResponsiveGridLayout"
+                          labelSpanXL="3"
+                          labelSpanL="3"
+                          labelSpanM="4"
+                          columnsXL="3"
+                          columnsL="3"
+                          columnsM="2">
+                          <form:content>
+                            <Label text="Leave Type" />
+                            <Text text="{view>/leaveRequest/type}" />
+                            <Label text="From Date" />
+                            <Text text="{path: 'view>/leaveRequest/startDate', formatter: '.formatShortDate'}" />
+                            <Label text="To Date" />
+                            <Text text="{path: 'view>/leaveRequest/endDate', formatter: '.formatShortDate'}" />
+                            <Label text="Total Days" />
+                            <Text text="{= ${view>/leaveRequest/days} + ' Days' }" />
+                            <Label text="Reason" />
+                            <Text text="{view>/leaveRequest/reason}" />
+                          </form:content>
+                        </form:SimpleForm>
+                      </content>
+                    </Panel>
+
+                    <Title text="Approval History" level="H2" class="sectionTitle" />
+                    <Panel class="detailSection">
+                      <content>
+                        <Table id="historyTable" items="{view>/approvalHistory}">
+                          <columns>
+                            <Column><Text text="Approver" /></Column>
+                            <Column><Text text="Action" /></Column>
+                            <Column><Text text="Comment" /></Column>
+                            <Column><Text text="Action Date" /></Column>
+                          </columns>
+                          <items>
+                            <ColumnListItem>
+                              <cells>
+                                <Text text="{view>approverName}" />
+                                <ObjectStatus
+                                  text="{view>decision}"
+                                  state="{path: 'view>decision', formatter: '.formatDecisionState'}" />
+                                <Text text="{view>comment}" />
+                                <Text text="{path: 'view>createdAt', formatter: '.formatShortDateTime'}" />
+                              </cells>
+                            </ColumnListItem>
+                          </items>
+                        </Table>
+                      </content>
+                    </Panel>
+                  </VBox>
+
+                  <IllustratedMessage
+                    visible="{= !${view>/selectedTask} }"
+                    illustrationType="sapIllus-NoData"
+                    title="{i18n>noTaskSelected}"
+                    description="Choose a task from the list to review the leave request." />
+                </f:content>
+
+                <f:footer>
+                  <OverflowToolbar>
+                    <ToolbarSpacer />
+                    <Button
+                      text="{i18n>reject}"
+                      type="Reject"
+                      width="9rem"
+                      enabled="{= ${view>/selectedTask/status} === 'READY' &amp;&amp; !${view>/actionBusy} }"
+                      visible="{= ${view>/selectedTask/status} === 'READY' }"
+                      press=".onReject" />
+                    <Button
+                      text="{i18n>approve}"
+                      type="Emphasized"
+                      width="9rem"
+                      enabled="{= ${view>/selectedTask/status} === 'READY' &amp;&amp; !${view>/actionBusy} }"
+                      visible="{= ${view>/selectedTask/status} === 'READY' }"
+                      press=".onApprove" />
+                  </OverflowToolbar>
+                </f:footer>
+              </f:DynamicPage>
+            </f:midColumnPages>
+          </f:FlexibleColumnLayout>
+        </VBox>
+      </content>
+    </Page>
+  </App>
+</mvc:View>

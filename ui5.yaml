@@ -1,0 +1,20 @@
+specVersion: "4.0"
+metadata:
+  name: approval-inbox
+type: application
+framework:
+  name: SAPUI5
+  version: "1.120.0"
+  libraries:
+    - name: sap.m
+    - name: sap.f
+    - name: sap.ui.core
+    - name: sap.ui.layout
+    - name: themelib_sap_horizon
+server:
+  customMiddleware:
+    - name: ui5-middleware-simpleproxy
+      afterMiddleware: compression
+      mountPath: /odata/v4/approval
+      configuration:
+        baseUri: "http://localhost:4004/odata/v4/approval"

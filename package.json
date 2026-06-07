@@ -1,0 +1,48 @@
+{
+  "name": "approval-inbox",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CAP-backed SAPUI5 freestyle Approval Inbox.",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch": "cds watch",
+    "start:ui": "ui5 serve --open index.html",
+    "start:backend": "cds watch",
+    "lint": "node --check webapp/Component.js && node --check webapp/controller/App.controller.js && node --check srv/approval-service.js",
+    "cds:compile": "cds compile srv --to edmx",
+    "build": "ui5 build --clean-dest",
+    "build:cap": "cds build --production",
+    "build:mta": "mbt build",
+    "deploy:cf": "cf api https://api.cf.ap21.hana.ondemand.com && cf target -o 733d95cctrial -s dev && cf deploy mta_archives/approval-inbox_1.0.0.mtar"
+  },
+  "dependencies": {
+    "@cap-js/hana": "^2.0.0",
+    "@cap-js/sqlite": "^2.0.0",
+    "@sap/cds": "^9.7.0",
+    "@sap/xssec": "^4.13.0",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@sap/cds-dk": "^9.7.0",
+    "@ui5/cli": "^4.0.16",
+    "ui5-middleware-simpleproxy": "^3.4.0"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "[development]": {
+          "kind": "sqlite",
+          "credentials": {
+            "database": "db.sqlite"
+          }
+        },
+        "[production]": {
+          "kind": "hana"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "approval-inbox-db-deployer",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@sap/hdi-deploy": "^5.0.0",
+    "hdb": "^0.19.12"
+  },
+  "scripts": {
+    "start": "node node_modules/@sap/hdi-deploy/deploy.js"
+  }
+}

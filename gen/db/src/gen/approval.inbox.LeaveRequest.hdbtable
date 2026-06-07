@@ -1,0 +1,15 @@
+COLUMN TABLE approval_inbox_LeaveRequest (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  employee_ID NVARCHAR(36) NOT NULL,
+  type NVARCHAR(40) NOT NULL,
+  startDate DATE NOT NULL,
+  endDate DATE NOT NULL,
+  days INTEGER NOT NULL,
+  reason NVARCHAR(500),
+  status NVARCHAR(20) DEFAULT 'PENDING',
+  PRIMARY KEY(ID)
+)

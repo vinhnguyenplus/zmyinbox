@@ -1,0 +1,15 @@
+COLUMN TABLE approval_inbox_WorkflowTask (
+  ID NVARCHAR(36) NOT NULL,
+  createdAt TIMESTAMP,
+  createdBy NVARCHAR(255),
+  modifiedAt TIMESTAMP,
+  modifiedBy NVARCHAR(255),
+  title NVARCHAR(160) NOT NULL,
+  employee_ID NVARCHAR(36) NOT NULL,
+  leaveRequest_ID NVARCHAR(36) NOT NULL,
+  status NVARCHAR(20) DEFAULT 'READY',
+  completedAt TIMESTAMP,
+  completedBy NVARCHAR(120),
+  decisionComment NVARCHAR(1000),
+  PRIMARY KEY(ID)
+)

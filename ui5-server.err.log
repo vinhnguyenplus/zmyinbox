@@ -1,0 +1,8 @@
+info graph:helpers:ui5Framework Using SAPUI5 version: 1.120.0
+
+⚠️  This server is accepting connections from all hosts on your network
+Please Note:
+* This server is intended for development purposes only. Do not use it in production.
+* Vulnerable (custom-)middleware can pose a threat to your system when exposed to the network
+* The use of proxy-middleware with preconfigured credentials might enable unauthorized access to a target system for third parties on your network
+

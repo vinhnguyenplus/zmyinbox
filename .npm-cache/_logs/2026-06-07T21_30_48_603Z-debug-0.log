@@ -1,0 +1,21 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\00. Project\zMyInBox\gen\srv\.npmrc
+5 silly config load:file:C:\Users\tanvi\.npmrc
+6 silly config load:file:C:\Users\tanvi\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--package-lock-only"
+9 verbose logfile logs-max:10 dir:D:\00. Project\zMyInBox\.npm-cache\_logs\2026-06-07T21_30_48_603Z-
+10 verbose logfile D:\00. Project\zMyInBox\.npm-cache\_logs\2026-06-07T21_30_48_603Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 verbose cwd D:\00. Project\zMyInBox\gen\srv
+16 verbose os Windows_NT 10.0.22621
+17 verbose node v24.15.0
+18 verbose npm  v11.12.1
+19 verbose exit 0
+20 info ok

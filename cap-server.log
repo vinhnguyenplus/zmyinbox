@@ -1,0 +1,30 @@
+[cds] - loaded model from 3 file(s):
+ 
+  srv\approval-service.cds
+  db\schema.cds
+  node_modules\@sap\cds\common.cds
+
+[cds] - connect to db > sqlite { url: 'db.sqlite', database: 'db.sqlite' }
+[cds] - using auth strategy {
+  kind: 'mocked',
+  impl: 'node_modules\\@sap\\cds\\lib\\srv\\middlewares\\auth\\basic-auth.js'
+}
+[cds] - serving ApprovalService {
+  at: [ '/odata/v4/approval' ],
+  decl: 'srv\\approval-service.cds:4',
+  impl: 'srv\\approval-service.js'
+}
+[cds] - server listening on { url: 'http://localhost:4004' }
+[cds] - server v9.9.1 launched in 447 ms
+[odata] - GET /odata/v4/approval/WorkflowTask 
+[odata] - GET /odata/v4/approval/WorkflowTask 
+[odata] - GET /odata/v4/approval/$metadata { 'sap-language': 'EN' }
+[odata] - HEAD /odata/v4/approval/ 
+[odata] - HEAD /odata/v4/approval/ 
+[odata] - GET /odata/v4/approval/$metadata { 'sap-language': 'EN' }
+[odata] - GET /odata/v4/approval/$metadata { 'sap-language': 'EN' }
+[odata] - HEAD /odata/v4/approval/ 
+[odata] - GET /odata/v4/approval/$metadata { 'sap-language': 'EN' }
+[odata] - HEAD /odata/v4/approval/ 
+[odata] - GET /odata/v4/approval/$metadata { 'sap-language': 'EN' }
+[odata] - HEAD /odata/v4/approval/ 

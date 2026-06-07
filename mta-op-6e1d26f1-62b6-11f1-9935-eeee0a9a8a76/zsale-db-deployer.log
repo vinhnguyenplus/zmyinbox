@@ -1,0 +1,906 @@
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:32.698739] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"metadata"=>{"annotations"=>{"mta_id"=>"approval-inbox", "mta_version"=>"1.0.0", "mta_module"=>"{\"name\":\"zsale-db-deployer\"}", "mta_module_provided_dependencies"=>"[]", "mta_bound_services"=>"[]"}, "labels"=>{"mta_id"=>"052029064fb2255edf93c2d5d1d569ea"}}}) (STDOUT, API)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:32.908002] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:33.012501] Updating process: "web" (STDOUT, API)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:33.136431] Scaling process: "web" (STDOUT, API)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:48.754160] Uploading app package for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:48.994246] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.596831] Creating build for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.965531] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.997919] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.998007] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:59.798196] Security group rules were updated (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:59.929022] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.267571] Downloading app package... (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.267625] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.331116] Downloaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.623473] Downloaded app package (1.9M) (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.770113] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978039] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978268] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978411] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522212] -----> Installing binaries (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522424] engines.node (package.json): unspecified (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522473] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522540] [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522588] -----> Installing node 22.22.0 (STDOUT, STG)#
+#2026 06 07 21:19:08.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4860#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522751] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/65c50d3a8311e7796847437aebc5aebd/node_22.22.0_linux_x64_cflinuxfs4_a73ffe6d.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.950377] Using default npm version: 10.9.4 (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.951054] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.951324] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.408371] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.408410] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412470] NODE_ENV=production (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412561] NODE_HOME=/tmp/contents1903373179/deps/0/node (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412615] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412949] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414438] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414449] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414456] -----> Building dependencies (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414459] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414463] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.182861] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.270448] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878003] up to date in 503ms (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878348] 3 packages are looking for funding (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878360] run `npm fund` for details (STDOUT, STG)#
+#2026 06 07 21:19:18.331#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4864#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:12.584762] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 07 21:19:28.306#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4867#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.729817] Exit status 0 (STDOUT, STG)#
+#2026 06 07 21:19:28.306#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4867#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.729926] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:28.306#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4867#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.730056] Uploading droplet... (STDOUT, STG)#
+#2026 06 07 21:19:28.306#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4867#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.730129] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:28.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4867#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.767010] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 06 07 21:19:28.307#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4867#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:26.650944] Creating droplet for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4872#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:29.723862] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4872#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:29.756575] Uploading complete (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4872#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:30.926868] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4872#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:30.926919] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4872#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:31.011397] Staging complete for build bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, API)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4872#
+[PollStageAppStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:34.381611] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:32.698739] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"metadata"=>{"annotations"=>{"mta_id"=>"approval-inbox", "mta_version"=>"1.0.0", "mta_module"=>"{\"name\":\"zsale-db-deployer\"}", "mta_module_provided_dependencies"=>"[]", "mta_bound_services"=>"[]"}, "labels"=>{"mta_id"=>"052029064fb2255edf93c2d5d1d569ea"}}}) (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:32.908002] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:33.012501] Updating process: "web" (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:33.136431] Scaling process: "web" (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:48.754160] Uploading app package for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:48.994246] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.596831] Creating build for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.965531] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.997919] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.998007] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:59.798196] Security group rules were updated (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:59.929022] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.267571] Downloading app package... (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.267625] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.331116] Downloaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.623473] Downloaded app package (1.9M) (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.770113] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978039] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978268] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978411] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522212] -----> Installing binaries (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522424] engines.node (package.json): unspecified (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522473] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522540] [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522588] -----> Installing node 22.22.0 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522751] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/65c50d3a8311e7796847437aebc5aebd/node_22.22.0_linux_x64_cflinuxfs4_a73ffe6d.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.950377] Using default npm version: 10.9.4 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.951054] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.951324] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.408371] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.408410] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412470] NODE_ENV=production (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412561] NODE_HOME=/tmp/contents1903373179/deps/0/node (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412615] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412949] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414438] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414449] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414456] -----> Building dependencies (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414459] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414463] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.182861] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.270448] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878003] up to date in 503ms (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878348] 3 packages are looking for funding (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878360] run `npm fund` for details (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:12.584762] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.729817] Exit status 0 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.729926] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.730056] Uploading droplet... (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.730129] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.767010] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:26.650944] Creating droplet for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:29.723862] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:29.756575] Uploading complete (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:30.926868] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:30.926919] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:31.011397] Staging complete for build bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:34.381611] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:38.398322] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({:droplet_guid=>"30bc727d-3bbf-4f1c-bc80-09acc4da3dd1"}) (STDOUT, API)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:38.916216] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:39.788101] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:40.077723] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.034883] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.307174] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.811474] > approval-inbox-db-deployer@1.0.0 start (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.811486] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916281] /home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916297] throw new Error('requires a peer of either \'@sap/hana-client\' or \'hdb\' but none is installed. You must install peer dependencies yourself or add them to your package.json file.'); (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916309] ^ (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916321] Error: requires a peer of either '@sap/hana-client' or 'hdb' but none is installed. You must install peer dependencies yourself or add them to your package.json file. (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916324] at exports.getClient (/home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710:17) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916328] at Object.<anonymous> (/home/vcap/app/node_modules/@sap/hdi-deploy/deploy.js:524:7) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916334] at Module._compile (node:internal/modules/cjs/loader:1706:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916338] at Object..js (node:internal/modules/cjs/loader:1839:10) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916341] at Module.load (node:internal/modules/cjs/loader:1441:32) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916349] at Function._load (node:internal/modules/cjs/loader:1263:12) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916353] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916356] at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916359] at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916362] at node:internal/main/run_main_module:36:49 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916425] Node.js v22.22.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961954] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961976] npm notice New major version of npm available! 10.9.4 -> 11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961980] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961983] npm notice To update run: npm install -g npm@11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961988] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:47.053529] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:47.410069] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:19:48.378#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4879#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:47.410127] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:32.698739] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"metadata"=>{"annotations"=>{"mta_id"=>"approval-inbox", "mta_version"=>"1.0.0", "mta_module"=>"{\"name\":\"zsale-db-deployer\"}", "mta_module_provided_dependencies"=>"[]", "mta_bound_services"=>"[]"}, "labels"=>{"mta_id"=>"052029064fb2255edf93c2d5d1d569ea"}}}) (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:32.908002] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:33.012501] Updating process: "web" (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:33.136431] Scaling process: "web" (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:48.754160] Uploading app package for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:48.994246] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.596831] Creating build for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.965531] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.997919] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.998007] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:59.798196] Security group rules were updated (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:59.929022] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.267571] Downloading app package... (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.267625] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.331116] Downloaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.623473] Downloaded app package (1.9M) (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.770113] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978039] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978268] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978411] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522212] -----> Installing binaries (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522424] engines.node (package.json): unspecified (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522473] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522540] [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522588] -----> Installing node 22.22.0 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522751] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/65c50d3a8311e7796847437aebc5aebd/node_22.22.0_linux_x64_cflinuxfs4_a73ffe6d.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.950377] Using default npm version: 10.9.4 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.951054] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.951324] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.408371] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.408410] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412470] NODE_ENV=production (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412561] NODE_HOME=/tmp/contents1903373179/deps/0/node (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412615] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412949] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414438] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414449] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414456] -----> Building dependencies (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414459] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414463] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.182861] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.270448] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878003] up to date in 503ms (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878348] 3 packages are looking for funding (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878360] run `npm fund` for details (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:12.584762] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.729817] Exit status 0 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.729926] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.730056] Uploading droplet... (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.730129] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.767010] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:26.650944] Creating droplet for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:29.723862] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:29.756575] Uploading complete (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:30.926868] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:30.926919] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:31.011397] Staging complete for build bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:34.381611] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:38.398322] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({:droplet_guid=>"30bc727d-3bbf-4f1c-bc80-09acc4da3dd1"}) (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:38.916216] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:39.788101] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:40.077723] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.034883] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.307174] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.811474] > approval-inbox-db-deployer@1.0.0 start (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.811486] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916281] /home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916297] throw new Error('requires a peer of either \'@sap/hana-client\' or \'hdb\' but none is installed. You must install peer dependencies yourself or add them to your package.json file.'); (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916309] ^ (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916321] Error: requires a peer of either '@sap/hana-client' or 'hdb' but none is installed. You must install peer dependencies yourself or add them to your package.json file. (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916324] at exports.getClient (/home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710:17) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916328] at Object.<anonymous> (/home/vcap/app/node_modules/@sap/hdi-deploy/deploy.js:524:7) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916334] at Module._compile (node:internal/modules/cjs/loader:1706:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916338] at Object..js (node:internal/modules/cjs/loader:1839:10) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916341] at Module.load (node:internal/modules/cjs/loader:1441:32) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916349] at Function._load (node:internal/modules/cjs/loader:1263:12) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916353] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916356] at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916359] at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916362] at node:internal/main/run_main_module:36:49 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916425] Node.js v22.22.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961954] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961976] npm notice New major version of npm available! 10.9.4 -> 11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961980] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961983] npm notice To update run: npm install -g npm@11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961988] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:47.053529] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:47.410069] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:47.410127] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:50.225984] Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance 93399ecd-48e2-4fb9-b961-9e4e14db0cd8 (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:50.955291] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:51.067437] Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance 93399ecd-48e2-4fb9-b961-9e4e14db0cd8 (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:51.393674] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:55.651899] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:55.867007] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.316022] > approval-inbox-db-deployer@1.0.0 start (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.316037] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418747] /home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418767] throw new Error('requires a peer of either \'@sap/hana-client\' or \'hdb\' but none is installed. You must install peer dependencies yourself or add them to your package.json file.'); (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418770] ^ (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418777] Error: requires a peer of either '@sap/hana-client' or 'hdb' but none is installed. You must install peer dependencies yourself or add them to your package.json file. (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418780] at exports.getClient (/home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710:17) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418783] at Object.<anonymous> (/home/vcap/app/node_modules/@sap/hdi-deploy/deploy.js:524:7) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418786] at Module._compile (node:internal/modules/cjs/loader:1706:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418791] at Object..js (node:internal/modules/cjs/loader:1839:10) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418794] at Module.load (node:internal/modules/cjs/loader:1441:32) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418796] at Function._load (node:internal/modules/cjs/loader:1263:12) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418799] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418802] at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418804] at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418808] at node:internal/main/run_main_module:36:49 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418811] Node.js v22.22.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461547] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461562] npm notice New major version of npm available! 10.9.4 -> 11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461566] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461570] npm notice To update run: npm install -g npm@11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461575] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.542177] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:57.498184] Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance 93399ecd-48e2-4fb9-b961-9e4e14db0cd8 (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4883#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:57.498216] Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance 93399ecd-48e2-4fb9-b961-9e4e14db0cd8 (STDOUT, CELL)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:32.698739] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"metadata"=>{"annotations"=>{"mta_id"=>"approval-inbox", "mta_version"=>"1.0.0", "mta_module"=>"{\"name\":\"zsale-db-deployer\"}", "mta_module_provided_dependencies"=>"[]", "mta_bound_services"=>"[]"}, "labels"=>{"mta_id"=>"052029064fb2255edf93c2d5d1d569ea"}}}) (STDOUT, API)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:32.908002] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:33.012501] Updating process: "web" (STDOUT, API)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:33.136431] Scaling process: "web" (STDOUT, API)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:48.754160] Uploading app package for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:48.994246] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.596831] Creating build for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.965531] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.997919] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:58.998007] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:59.798196] Security group rules were updated (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:18:59.929022] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.267571] Downloading app package... (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.267625] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.331116] Downloaded build artifacts cache (224B) (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.623473] Downloaded app package (1.9M) (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.770113] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978039] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978268] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:00.978411] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522212] -----> Installing binaries (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522424] engines.node (package.json): unspecified (STDOUT, STG)#
+#2026 06 07 21:20:08.498#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522473] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522540] [31;1m**WARNING**[0m Node version not specified in package.json or .nvmrc. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522588] -----> Installing node 22.22.0 (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:06.522751] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/65c50d3a8311e7796847437aebc5aebd/node_22.22.0_linux_x64_cflinuxfs4_a73ffe6d.tgz] (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.950377] Using default npm version: 10.9.4 (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.951054] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:09.951324] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.408371] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.408410] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412470] NODE_ENV=production (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412561] NODE_HOME=/tmp/contents1903373179/deps/0/node (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412615] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.412949] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414438] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414449] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414456] -----> Building dependencies (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414459] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:10.414463] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.182861] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.270448] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878003] up to date in 503ms (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878348] 3 packages are looking for funding (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:11.878360] run `npm fund` for details (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:12.584762] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.729817] Exit status 0 (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.729926] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.730056] Uploading droplet... (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.730129] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:25.767010] Uploaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:26.650944] Creating droplet for app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d (STDOUT, API)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:29.723862] Uploaded droplet (58.6M) (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:29.756575] Uploading complete (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:30.926868] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:30.926919] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:31.011397] Staging complete for build bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, API)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:34.381611] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance bc2acd43-d5d9-4fac-90ec-9a80f76bfe46 (STDOUT, STG)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:38.398322] Updated app with guid 36102a24-a7e1-4797-b52e-9d12cda3df3d ({:droplet_guid=>"30bc727d-3bbf-4f1c-bc80-09acc4da3dd1"}) (STDOUT, API)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:38.916216] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:39.788101] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:40.077723] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.034883] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.307174] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.811474] > approval-inbox-db-deployer@1.0.0 start (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.811486] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916281] /home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916297] throw new Error('requires a peer of either \'@sap/hana-client\' or \'hdb\' but none is installed. You must install peer dependencies yourself or add them to your package.json file.'); (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916309] ^ (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916321] Error: requires a peer of either '@sap/hana-client' or 'hdb' but none is installed. You must install peer dependencies yourself or add them to your package.json file. (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916324] at exports.getClient (/home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710:17) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916328] at Object.<anonymous> (/home/vcap/app/node_modules/@sap/hdi-deploy/deploy.js:524:7) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916334] at Module._compile (node:internal/modules/cjs/loader:1706:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916338] at Object..js (node:internal/modules/cjs/loader:1839:10) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916341] at Module.load (node:internal/modules/cjs/loader:1441:32) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916349] at Function._load (node:internal/modules/cjs/loader:1263:12) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916353] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916356] at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916359] at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916362] at node:internal/main/run_main_module:36:49 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.916425] Node.js v22.22.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961954] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961976] npm notice New major version of npm available! 10.9.4 -> 11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961980] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961983] npm notice To update run: npm install -g npm@11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:46.961988] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:47.053529] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:47.410069] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:47.410127] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:50.225984] Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance 93399ecd-48e2-4fb9-b961-9e4e14db0cd8 (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:50.955291] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:51.067437] Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance 93399ecd-48e2-4fb9-b961-9e4e14db0cd8 (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:51.393674] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance ac34d0f3-c9d2-428c-8009-592ea3e29bda (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:55.651899] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:55.867007] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.316022] > approval-inbox-db-deployer@1.0.0 start (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.316037] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418747] /home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418767] throw new Error('requires a peer of either \'@sap/hana-client\' or \'hdb\' but none is installed. You must install peer dependencies yourself or add them to your package.json file.'); (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418770] ^ (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418777] Error: requires a peer of either '@sap/hana-client' or 'hdb' but none is installed. You must install peer dependencies yourself or add them to your package.json file. (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418780] at exports.getClient (/home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710:17) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418783] at Object.<anonymous> (/home/vcap/app/node_modules/@sap/hdi-deploy/deploy.js:524:7) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418786] at Module._compile (node:internal/modules/cjs/loader:1706:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418791] at Object..js (node:internal/modules/cjs/loader:1839:10) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418794] at Module.load (node:internal/modules/cjs/loader:1441:32) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418796] at Function._load (node:internal/modules/cjs/loader:1263:12) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418799] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418802] at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418804] at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418808] at node:internal/main/run_main_module:36:49 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.418811] Node.js v22.22.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461547] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461562] npm notice New major version of npm available! 10.9.4 -> 11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461566] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461570] npm notice To update run: npm install -g npm@11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.461575] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:56.542177] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:57.498184] Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance 93399ecd-48e2-4fb9-b961-9e4e14db0cd8 (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:57.498216] Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance 93399ecd-48e2-4fb9-b961-9e4e14db0cd8 (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:19:59.780491] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 creating container for instance 7fe82966-8d58-443f-be36-c6a4abf26760 (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:00.567403] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:00.605118] Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance 93399ecd-48e2-4fb9-b961-9e4e14db0cd8 (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:00.690383] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 successfully created container for instance 7fe82966-8d58-443f-be36-c6a4abf26760 (STDOUT, CELL)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.030022] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.291784] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.846392] > approval-inbox-db-deployer@1.0.0 start (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.846411] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962819] /home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962840] throw new Error('requires a peer of either \'@sap/hana-client\' or \'hdb\' but none is installed. You must install peer dependencies yourself or add them to your package.json file.'); (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962844] ^ (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962850] Error: requires a peer of either '@sap/hana-client' or 'hdb' but none is installed. You must install peer dependencies yourself or add them to your package.json file. (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962853] at exports.getClient (/home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710:17) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962856] at Object.<anonymous> (/home/vcap/app/node_modules/@sap/hdi-deploy/deploy.js:524:7) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962859] at Module._compile (node:internal/modules/cjs/loader:1706:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962862] at Object..js (node:internal/modules/cjs/loader:1839:10) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962865] at Module.load (node:internal/modules/cjs/loader:1441:32) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962869] at Function._load (node:internal/modules/cjs/loader:1263:12) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962872] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962885] at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962887] at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962891] at node:internal/main/run_main_module:36:49 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:07.962894] Node.js v22.22.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:08.035867] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:08.035883] npm notice New major version of npm available! 10.9.4 -> 11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:08.035886] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:08.035897] npm notice To update run: npm install -g npm@11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:08.035899] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:08.499#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4887#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:08.135195] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:18.447#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4891#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:09.824686] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 stopping instance 7fe82966-8d58-443f-be36-c6a4abf26760 (STDOUT, CELL)#
+#2026 06 07 21:20:18.447#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4891#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:09.824756] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 destroying container for instance 7fe82966-8d58-443f-be36-c6a4abf26760 (STDOUT, CELL)#
+#2026 06 07 21:20:18.447#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4891#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:13.349699] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 successfully destroyed container for instance 7fe82966-8d58-443f-be36-c6a4abf26760 (STDOUT, CELL)#
+#2026 06 07 21:20:28.592#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4896#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:09.824686] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 stopping instance 7fe82966-8d58-443f-be36-c6a4abf26760 (STDOUT, CELL)#
+#2026 06 07 21:20:28.592#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4896#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:09.824756] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 destroying container for instance 7fe82966-8d58-443f-be36-c6a4abf26760 (STDOUT, CELL)#
+#2026 06 07 21:20:28.592#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4896#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:13.349699] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 successfully destroyed container for instance 7fe82966-8d58-443f-be36-c6a4abf26760 (STDOUT, CELL)#
+#2026 06 07 21:20:28.592#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4896#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:21.589062] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 creating container for instance c7218847-937f-4e98-ace7-f523d66830ce (STDOUT, CELL)#
+#2026 06 07 21:20:28.592#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4896#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:22.465183] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:20:28.592#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4896#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:22.578458] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully created container for instance c7218847-937f-4e98-ace7-f523d66830ce (STDOUT, CELL)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.013360] Invoking pre-start scripts. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.281303] Invoking start command. (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.794367] > approval-inbox-db-deployer@1.0.0 start (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.794383] > node node_modules/@sap/hdi-deploy/deploy.js (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911066] /home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911120] throw new Error('requires a peer of either \'@sap/hana-client\' or \'hdb\' but none is installed. You must install peer dependencies yourself or add them to your package.json file.'); (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911130] ^ (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911135] Error: requires a peer of either '@sap/hana-client' or 'hdb' but none is installed. You must install peer dependencies yourself or add them to your package.json file. (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911139] at exports.getClient (/home/vcap/app/node_modules/@sap/hdi-deploy/lib/utils.js:710:17) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911143] at Object.<anonymous> (/home/vcap/app/node_modules/@sap/hdi-deploy/deploy.js:524:7) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911161] at Module._compile (node:internal/modules/cjs/loader:1706:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911164] at Object..js (node:internal/modules/cjs/loader:1839:10) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911172] at Module.load (node:internal/modules/cjs/loader:1441:32) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911176] at Function._load (node:internal/modules/cjs/loader:1263:12) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911182] at TracingChannel.traceSync (node:diagnostics_channel:328:14) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911185] at wrapModuleLoad (node:internal/modules/cjs/loader:237:24) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911188] at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:171:5) (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911192] at node:internal/main/run_main_module:36:49 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.911197] Node.js v22.22.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.969313] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.969335] npm notice New major version of npm available! 10.9.4 -> 11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.969340] npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.969343] npm notice To update run: npm install -g npm@11.16.0 (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:29.969346] npm notice (STDERR, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:30.063806] Exit status 1 (STDOUT, APP/TASK/deploy)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:31.204652] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance c7218847-937f-4e98-ace7-f523d66830ce (STDOUT, CELL)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:31.204732] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance c7218847-937f-4e98-ace7-f523d66830ce (STDOUT, CELL)#
+#2026 06 07 21:20:38.586#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-db-deployer#flowable-async-job-executor-thread-4898#
+[PollExecuteTaskStatusExecution] 36102a24-a7e1-4797-b52e-9d12cda3df3d [2026-06-07T21:20:34.575271] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance c7218847-937f-4e98-ace7-f523d66830ce (STDOUT, CELL)#

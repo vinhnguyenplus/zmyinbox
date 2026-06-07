@@ -1,0 +1,9 @@
+VIEW ApprovalService_Employee AS SELECT
+  Employee_0.ID,
+  Employee_0.employeeNumber,
+  Employee_0.fullName,
+  Employee_0.position,
+  Employee_0.department,
+  Employee_0.email,
+  Employee_0.managerName
+FROM approval_inbox_Employee AS Employee_0

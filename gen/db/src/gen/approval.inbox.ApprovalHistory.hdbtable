@@ -1,0 +1,11 @@
+COLUMN TABLE approval_inbox_ApprovalHistory (
+  ID NVARCHAR(36) NOT NULL,
+  workflowTask_ID NVARCHAR(36) NOT NULL,
+  leaveRequest_ID NVARCHAR(36) NOT NULL,
+  step INTEGER NOT NULL,
+  approverName NVARCHAR(120) NOT NULL,
+  decision NVARCHAR(20) NOT NULL,
+  comment NVARCHAR(1000),
+  createdAt TIMESTAMP,
+  PRIMARY KEY(ID)
+)

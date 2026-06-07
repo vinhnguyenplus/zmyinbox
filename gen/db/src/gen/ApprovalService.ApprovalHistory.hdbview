@@ -1,0 +1,10 @@
+VIEW ApprovalService_ApprovalHistory AS SELECT
+  ApprovalHistory_0.ID,
+  ApprovalHistory_0.workflowTask_ID,
+  ApprovalHistory_0.leaveRequest_ID,
+  ApprovalHistory_0.step,
+  ApprovalHistory_0.approverName,
+  ApprovalHistory_0.decision,
+  ApprovalHistory_0.comment,
+  ApprovalHistory_0.createdAt
+FROM approval_inbox_ApprovalHistory AS ApprovalHistory_0

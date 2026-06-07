@@ -1,0 +1,47 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "target_table": "APPROVAL_INBOX_LEAVEREQUEST",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "approval.inbox-LeaveRequest.csv",
+        "has_header": true,
+        "type_config": {
+          "delimiter": ";"
+        }
+      },
+      "import_settings": {
+        "import_columns": [
+          "ID",
+          "EMPLOYEE_ID",
+          "TYPE",
+          "STARTDATE",
+          "ENDDATE",
+          "DAYS",
+          "REASON",
+          "STATUS",
+          "CREATEDAT",
+          "CREATEDBY",
+          "MODIFIEDAT",
+          "MODIFIEDBY"
+        ],
+        "include_filter": []
+      },
+      "column_mappings": {
+        "ID": "ID",
+        "EMPLOYEE_ID": "employee_ID",
+        "TYPE": "type",
+        "STARTDATE": "startDate",
+        "ENDDATE": "endDate",
+        "DAYS": "days",
+        "REASON": "reason",
+        "STATUS": "status",
+        "CREATEDAT": "createdAt",
+        "CREATEDBY": "createdBy",
+        "MODIFIEDAT": "modifiedAt",
+        "MODIFIEDBY": "modifiedBy"
+      }
+    }
+  ]
+}

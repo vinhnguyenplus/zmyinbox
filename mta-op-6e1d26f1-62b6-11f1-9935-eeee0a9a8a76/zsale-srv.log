@@ -1,0 +1,236 @@
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:34.524660] Updated app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 ({"metadata"=>{"annotations"=>{"mta_id"=>"approval-inbox", "mta_version"=>"1.0.0", "mta_module"=>"{\"name\":\"zsale-srv\"}", "mta_module_provided_dependencies"=>"[]", "mta_bound_services"=>"[]"}, "labels"=>{"mta_id"=>"052029064fb2255edf93c2d5d1d569ea"}}}) (STDOUT, API)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:34.775800] Updated app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 ({"lifecycle"=>{"data"=>{"buildpacks"=>["nodejs_buildpack"]}, "type"=>"buildpack"}}) (STDOUT, API)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:34.925332] Updating process: "web" (STDOUT, API)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:35.064301] Scaling process: "web" (STDOUT, API)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:48.998227] Uploading app package for app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 (STDOUT, API)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:49.201874] Updated app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 ({"environment_variables"=>"[PRIVATE DATA HIDDEN]"}) (STDOUT, API)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:58.676797] Stopping app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 (STDOUT, API)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:58.718594] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 stopping instance d757e2fc-22a7-44e9-4f08-3996 (STDOUT, CELL)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:58.972248] Creating build for app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 (STDOUT, API)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:59.288563] Downloading nodejs_buildpack... (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:59.321909] Downloaded nodejs_buildpack (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:18:59.321976] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 creating container for instance 49784572-31f6-4eac-b381-8480111b432d (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:00.079508] Security group rules were updated (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:00.232722] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 successfully created container for instance 49784572-31f6-4eac-b381-8480111b432d (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:00.681986] Downloading app package... (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:00.682124] Downloading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:00.725335] Downloaded build artifacts cache (226B) (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:02.033030] Downloaded app package (13.9M) (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:02.171079] -----> Nodejs Buildpack version 1.8.44 (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:02.603443] -----> Bootstrapping python (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:02.603468] -----> Installing python 3.11.14 (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:02.603852] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/b5e0345ae0ae1932e7d56fffaa49a487/python_3.11.14_linux_x64_cflinuxfs4_66f53248.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:07.927026] -----> Installing binaries (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:07.927371] engines.node (package.json): >=20 (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:07.927390] engines.npm (package.json): unspecified (use default) (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:07.927397] [31;1m**WARNING**[0m Dangerous semver range (>) in engines.node. See: http://docs.cloudfoundry.org/buildpacks/node/node-tips.html (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:07.927849] -----> Installing node 24.13.0 (STDOUT, STG)#
+#2026 06 07 21:19:08.315#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4859#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:07.928340] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/2f5692219fecc3eee6e6d507a6bfe7b9/node_24.13.0_linux_x64_cflinuxfs4_a816dee1.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.169228] Using default npm version: 11.6.2 (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.169367] -----> Installing yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.169494] Copy [/tmp/buildpacks/ee597f2be8090397/dependencies/e3a39aedd1236924d69cc2d0637a8ed2/yarn_1.22.22_linux_noarch_any-stack_4911d0a6.tgz] (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.624037] Installed yarn 1.22.22 (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.624050] -----> Creating runtime environment (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.627053] NODE_ENV=production (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.627062] NODE_HOME=/tmp/contents3729702688/deps/0/node (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.627065] NODE_MODULES_CACHE=true (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.627070] NODE_VERBOSE=false (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.627073] NPM_CONFIG_LOGLEVEL=error (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.627089] NPM_CONFIG_PRODUCTION=true (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.627275] -----> Building dependencies (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.627284] Prebuild detected (node_modules already exists) (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:11.627287] Rebuilding any native modules (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:12.982381] rebuilt dependencies successfully (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:13.065543] Installing any new modules (package.json + package-lock.json) (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:14.386178] up to date in 1s (STDOUT, STG)#
+#2026 06 07 21:19:18.324#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4863#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:15.463294] Contrast Security no credentials found. Will not write environment files. (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:30.474242] Exit status 0 (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:30.474281] Uploading droplet, build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:30.474328] Uploading droplet... (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:30.474586] Uploading build artifacts cache... (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:30.525306] Uploaded build artifacts cache (229B) (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:31.419131] Creating droplet for app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 (STDOUT, API)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:33.510507] Uploaded droplet (70.4M) (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:33.547122] Uploading complete (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:34.208538] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 stopping instance 49784572-31f6-4eac-b381-8480111b432d (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:34.208580] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 destroying container for instance 49784572-31f6-4eac-b381-8480111b432d (STDOUT, STG)#
+#2026 06 07 21:19:38.322#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4871#
+[PollStageAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:34.286387] Staging complete for build 49784572-31f6-4eac-b381-8480111b432d (STDOUT, API)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:38.383129] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 successfully destroyed container for instance 49784572-31f6-4eac-b381-8480111b432d (STDOUT, STG)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:38.399589] Updated app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 ({:droplet_guid=>"70420ce5-4b23-4593-800f-32bd264b08fd"}) (STDOUT, API)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:38.627006] Creating revision for app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 (STDOUT, API)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:38.678464] Starting app with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 (STDOUT, API)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:38.923872] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 creating container for instance b0d51026-cda5-42ae-4656-9f8d (STDOUT, CELL)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:39.757064] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:39.867182] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 successfully created container for instance b0d51026-cda5-42ae-4656-9f8d (STDOUT, CELL)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:40.796179] Downloading droplet... (STDOUT, CELL)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:47.302210] Downloaded droplet (70.4M) (STDOUT, CELL)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:47.302469] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:47.462790] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:19:48.416#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4880#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:47.754735] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:47.979592] > approval-inbox@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:47.979616] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:47.986257] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:48.022214] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:55.321068] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:55.321112] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 stopping instance b0d51026-cda5-42ae-4656-9f8d (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:55.321163] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 destroying container for instance b0d51026-cda5-42ae-4656-9f8d (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:55.341298] App instance exited with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 payload: {"instance"=>"b0d51026-cda5-42ae-4656-9f8d", "index"=>0, "cell_id"=>"1ea14514-f0fe-461c-9aa9-a53bbe093b00", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>1, "crash_timestamp"=>1780867195270272521, "version"=>"6b99ca1f-56a8-4dc9-9f7e-c1f79a62c886"} (STDOUT, API)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:55.393164] Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf creating container for instance 3341baba-1cdc-48c0-476c-5679 (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:55.500051] Exit status 137 (STDOUT, PROXY)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:56.227865] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:56.336165] Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully created container for instance 3341baba-1cdc-48c0-476c-5679 (STDOUT, CELL)#
+#2026 06 07 21:19:58.485#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4884#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:57.308559] Downloading droplet... (STDOUT, CELL)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:19:58.125460] Cell 1ea14514-f0fe-461c-9aa9-a53bbe093b00 successfully destroyed container for instance b0d51026-cda5-42ae-4656-9f8d (STDOUT, CELL)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:02.290396] Downloaded droplet (70.4M) (STDOUT, CELL)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:02.290695] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:02.413820] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:02.650800] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:02.821436] > approval-inbox@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:02.821454] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:02.827491] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:02.857049] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:05.539896] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 destroying container for instance d757e2fc-22a7-44e9-4f08-3996 (STDOUT, CELL)#
+#2026 06 07 21:20:08.511#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4888#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:05.757977] Exit status 137 (STDOUT, PROXY)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:08.778249] Cell 54b50d35-322b-4617-baa3-c13476b47cb5 successfully destroyed container for instance d757e2fc-22a7-44e9-4f08-3996 (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:09.215390] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:09.220556] Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf stopping instance 3341baba-1cdc-48c0-476c-5679 (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:09.220591] Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf destroying container for instance 3341baba-1cdc-48c0-476c-5679 (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:09.230645] App instance exited with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 payload: {"instance"=>"3341baba-1cdc-48c0-476c-5679", "index"=>0, "cell_id"=>"4401fcd0-006d-4ceb-9b51-aa22a1b186cf", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>2, "crash_timestamp"=>1780867209171366784, "version"=>"6b99ca1f-56a8-4dc9-9f7e-c1f79a62c886"} (STDOUT, API)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:09.285931] Cell 3697da87-6170-41a4-acb7-9186f1527dfa creating container for instance c0d0cc51-bab4-4dc7-6049-623a (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:09.383181] Exit status 137 (STDOUT, PROXY)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:10.089501] Security group rules were updated (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:10.199517] Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully created container for instance c0d0cc51-bab4-4dc7-6049-623a (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:10.893590] Downloading droplet... (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:11.980385] Cell 4401fcd0-006d-4ceb-9b51-aa22a1b186cf successfully destroyed container for instance 3341baba-1cdc-48c0-476c-5679 (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:16.578766] Downloaded droplet (70.4M) (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:16.578911] Starting health monitoring of container (STDOUT, CELL)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:16.737766] Invoking pre-start scripts. (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:16.965040] Invoking start command. (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:17.148164] > approval-inbox@1.0.0 start (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:17.148182] > cds watch (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:17.153160] sh: 1: cds: not found (STDERR, APP/PROC/WEB)#
+#2026 06 07 21:20:18.437#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4892#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:17.181116] Exit status 127 (STDOUT, APP/PROC/WEB)#
+#2026 06 07 21:20:28.608#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4895#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:23.599902] Cell 3697da87-6170-41a4-acb7-9186f1527dfa stopping instance c0d0cc51-bab4-4dc7-6049-623a (STDOUT, CELL)#
+#2026 06 07 21:20:28.608#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4895#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:23.599934] Cell 3697da87-6170-41a4-acb7-9186f1527dfa destroying container for instance c0d0cc51-bab4-4dc7-6049-623a (STDOUT, CELL)#
+#2026 06 07 21:20:28.608#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4895#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:23.626129] Process has crashed with type: "web" (STDOUT, API)#
+#2026 06 07 21:20:28.608#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4895#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:23.650593] App instance exited with guid 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 payload: {"instance"=>"c0d0cc51-bab4-4dc7-6049-623a", "index"=>0, "cell_id"=>"3697da87-6170-41a4-acb7-9186f1527dfa", "reason"=>"CRASHED", "exit_description"=>"APP/PROC/WEB: Exited with status 127", "crash_count"=>3, "crash_timestamp"=>1780867223570376098, "version"=>"6b99ca1f-56a8-4dc9-9f7e-c1f79a62c886"} (STDOUT, API)#
+#2026 06 07 21:20:28.608#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4895#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:23.749902] Exit status 137 (STDOUT, PROXY)#
+#2026 06 07 21:20:28.608#Z#DEBUG#6e1d26f1-62b6-11f1-9935-eeee0a9a8a76.zsale-srv#flowable-async-job-executor-thread-4895#
+[PollStartAppStatusExecution] 0a4c9868-b406-4fb2-8970-c0aa0fdd0598 [2026-06-07T21:20:26.492666] Cell 3697da87-6170-41a4-acb7-9186f1527dfa successfully destroyed container for instance c0d0cc51-bab4-4dc7-6049-623a (STDOUT, CELL)#

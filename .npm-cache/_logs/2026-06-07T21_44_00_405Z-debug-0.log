@@ -1,0 +1,54 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\00. Project\zMyInBox\.npmrc
+5 silly config load:file:C:\Users\tanvi\.npmrc
+6 silly config load:file:C:\Users\tanvi\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install @sap/xssec
+8 verbose argv "install" "@sap/xssec" "--save"
+9 verbose logfile logs-max:10 dir:D:\00. Project\zMyInBox\.npm-cache\_logs\2026-06-07T21_44_00_405Z-
+10 verbose logfile D:\00. Project\zMyInBox\.npm-cache\_logs\2026-06-07T21_44_00_405Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly fetch manifest @sap/xssec@*
+16 silly packumentCache full:https://registry.npmjs.org/@sap%2fxssec cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/@sap%2fxssec 991ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/@sap%2fxssec set size:undefined disposed:false
+19 silly placeDep ROOT @sap/xssec@4.13.0 OK for: approval-inbox@1.0.0 want: *
+20 silly fetch manifest debug@^4.4.3
+21 silly packumentCache full:https://registry.npmjs.org/debug cache-miss
+22 silly fetch manifest jwt-decode@^4
+23 silly packumentCache full:https://registry.npmjs.org/jwt-decode cache-miss
+24 http fetch GET 200 https://registry.npmjs.org/jwt-decode 81ms (cache miss)
+25 silly packumentCache full:https://registry.npmjs.org/jwt-decode set size:undefined disposed:false
+26 http fetch GET 200 https://registry.npmjs.org/debug 205ms (cache miss)
+27 silly packumentCache full:https://registry.npmjs.org/debug set size:undefined disposed:false
+28 silly placeDep node_modules/@sap/xssec debug@4.4.3 OK for: @sap/xssec@4.13.0 want: ^4.4.3
+29 silly placeDep ROOT jwt-decode@4.0.0 OK for: @sap/xssec@4.13.0 want: ^4
+30 silly fetch manifest ms@^2.1.3
+31 silly packumentCache full:https://registry.npmjs.org/ms cache-miss
+32 http fetch GET 200 https://registry.npmjs.org/ms 86ms (cache miss)
+33 silly packumentCache full:https://registry.npmjs.org/ms set size:undefined disposed:false
+34 silly placeDep node_modules/@sap/xssec ms@2.1.3 OK for: debug@4.4.3 want: ^2.1.3
+35 silly reify moves {}
+36 http cache ms@https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 0ms (cache hit)
+37 http cache debug@https://registry.npmjs.org/debug/-/debug-4.4.3.tgz 0ms (cache hit)
+38 http cache @sap/xssec@https://registry.npmjs.org/@sap/xssec/-/xssec-4.13.0.tgz 0ms (cache hit)
+39 silly tarball no local data for @sap/xssec@https://registry.npmjs.org/@sap/xssec/-/xssec-4.13.0.tgz. Extracting by manifest.
+40 http cache jwt-decode@https://registry.npmjs.org/jwt-decode/-/jwt-decode-4.0.0.tgz 0ms (cache hit)
+41 silly tarball no local data for jwt-decode@https://registry.npmjs.org/jwt-decode/-/jwt-decode-4.0.0.tgz. Extracting by manifest.
+42 http fetch GET 200 https://registry.npmjs.org/jwt-decode/-/jwt-decode-4.0.0.tgz 94ms (cache miss)
+43 http fetch GET 200 https://registry.npmjs.org/@sap/xssec/-/xssec-4.13.0.tgz 282ms (cache miss)
+44 silly ADD node_modules/jwt-decode
+45 silly ADD node_modules/@sap/xssec
+46 silly ADD node_modules/@sap/xssec/node_modules/ms
+47 silly ADD node_modules/@sap/xssec/node_modules/debug
+48 verbose cwd D:\00. Project\zMyInBox
+49 verbose os Windows_NT 10.0.22621
+50 verbose node v24.15.0
+51 verbose npm  v11.12.1
+52 verbose exit 0
+53 info ok

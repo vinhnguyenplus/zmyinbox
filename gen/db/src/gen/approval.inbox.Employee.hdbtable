@@ -1,0 +1,10 @@
+COLUMN TABLE approval_inbox_Employee (
+  ID NVARCHAR(36) NOT NULL,
+  employeeNumber NVARCHAR(20),
+  fullName NVARCHAR(120) NOT NULL,
+  position NVARCHAR(80),
+  department NVARCHAR(80),
+  email NVARCHAR(120),
+  managerName NVARCHAR(120),
+  PRIMARY KEY(ID)
+)

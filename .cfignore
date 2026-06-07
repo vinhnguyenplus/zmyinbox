@@ -1,0 +1,9 @@
+node_modules/
+dist/
+db.sqlite
+db.sqlite-shm
+db.sqlite-wal
+*.log
+*.err.log
+.env
+.git/
